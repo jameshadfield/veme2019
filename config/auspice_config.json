@@ -1,0 +1,52 @@
+{
+  "title": "VEME 2019: CADDE project & DENV-2",
+  "color_options": {
+    "gt": {
+      "menuItem": "genotype",
+      "legendTitle": "Genotype",
+      "type": "discrete",
+      "key": "genotype"
+    },
+    "location": {
+      "type": "discrete"
+    },
+    "state": {
+      "type": "discrete"
+    },
+    "region": {
+      "type": "discrete"
+    },
+    "country": {
+      "type": "discrete"
+    },
+    "study": {
+      "type": "discrete"
+    },
+    "num_date": {
+      "menuItem": "date",
+      "legendTitle": "Sampling date",
+      "type": "continuous"
+    }
+  },
+  "geo": [
+    "strain",
+    "region"
+  ],
+  "defaults": {
+    "mapTriplicate": false,
+    "distanceMeasure": "num_date",
+    "geoResolution": "region",
+    "colorBy": "study"
+  },  
+  "maintainer": [
+    "Nuno Faria // CADDE",
+    "https://twitter.com/CaddeProject"
+  ],
+  "filters": [
+    "location",
+    "state",
+    "region",
+    "country",
+    "study"
+  ]
+}

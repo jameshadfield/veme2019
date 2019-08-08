@@ -1,0 +1,1784 @@
+{
+  "annotations": {
+    "nuc": {
+      "end": 10948,
+      "start": 0,
+      "strand": 1
+    },
+    "polyprotein": {
+      "end": 10250,
+      "start": 74,
+      "strand": 1
+    }
+  },
+  "author_info": {},
+  "color_options": {
+    "country": {
+      "key": "country",
+      "legendTitle": "country",
+      "menuItem": "country",
+      "type": "discrete"
+    },
+    "gt": {
+      "key": "genotype",
+      "legendTitle": "Genotype",
+      "menuItem": "genotype",
+      "type": "discrete"
+    },
+    "location": {
+      "key": "location",
+      "legendTitle": "location",
+      "menuItem": "location",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "region": {
+      "color_map": [
+        [
+          "Caribbean",
+          "#3288bd"
+        ],
+        [
+          "SouthAmerica",
+          "#91cf60"
+        ],
+        [
+          "Brazil_Southeast",
+          "#d53e4f"
+        ],
+        [
+          "Brazil_Northeast",
+          "#fc8d59"
+        ],
+        [
+          "Brazil_North",
+          "#fee08b"
+        ],
+        [
+          "CentralAmerica",
+          "#91bfdb"
+        ]
+      ],
+      "key": "region",
+      "legendTitle": "region",
+      "menuItem": "region",
+      "type": "discrete"
+    },
+    "state": {
+      "key": "state",
+      "legendTitle": "state",
+      "menuItem": "state",
+      "type": "discrete"
+    },
+    "study": {
+      "key": "study",
+      "legendTitle": "study",
+      "menuItem": "study",
+      "type": "discrete"
+    }
+  },
+  "defaults": {
+    "colorBy": "study",
+    "distanceMeasure": "num_date",
+    "geoResolution": "region",
+    "mapTriplicate": false
+  },
+  "filters": [
+    "location",
+    "state",
+    "region",
+    "country",
+    "study"
+  ],
+  "geo": {
+    "region": {
+      "Brazil_North": {
+        "latitude": -2.079,
+        "longitude": -58.45
+      },
+      "Brazil_Northeast": {
+        "latitude": -8.813717,
+        "longitude": -36.954105
+      },
+      "Brazil_Southeast": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "Caribbean": {
+        "latitude": 19.1399952,
+        "longitude": -72.3570972
+      },
+      "CentralAmerica": {
+        "latitude": 12.1649,
+        "longitude": -86.3557
+      },
+      "SouthAmerica": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      }
+    },
+    "strain": {
+      "BC01_DENV2_SaoPaulo_library2|SaoJoseRioPreto-SP|2017-06-07": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "BC01_DENV2_SaoPaulo_library6_20190313.4000|Araraquara-SP|2019-02-05": {
+        "latitude": -21.7886713,
+        "longitude": -48.1773096
+      },
+      "BC02_DENV2_SaoPaulo_library2|SaoJoseRioPreto-SP|2019-01-10": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "BC02_DENV2_SaoPaulo_library6_20190313.4011|Araraquara-SP|2019-02-06": {
+        "latitude": -21.7886713,
+        "longitude": -48.1773096
+      },
+      "BC03_DENV2_SaoPaulo_library2|SaoJoseRioPreto-SP|2019-01-13": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "BC03_DENV2_SaoPaulo_library6_20190313.4013|Araraquara-SP|2019-02-06": {
+        "latitude": -21.7886713,
+        "longitude": -48.1773096
+      },
+      "BC04_DENV2_SaoPaulo_library6_20190313.4019|Araraquara-SP|2019-02-06": {
+        "latitude": -21.7886713,
+        "longitude": -48.1773096
+      },
+      "BC05_DENV2_SaoPaulo_library2|SaoJoseRioPreto-SP|2019-01-17": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "BC05_DENV2_SaoPaulo_library6_20190313.4020|Araraquara-SP|2019-02-07": {
+        "latitude": -21.7886713,
+        "longitude": -48.1773096
+      },
+      "BC06_DENV2_SaoPaulo_library2|SaoJoseRioPreto-SP|2019-01-18": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "BC06_DENV2_SaoPaulo_library6_20190313.4112|Araraquara-SP|2019-02-08": {
+        "latitude": -21.7886713,
+        "longitude": -48.1773096
+      },
+      "BC07_DENV2_SaoPaulo_library2|SaoJoseRioPreto-SP|2019-04-08": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "BC07_DENV2_SaoPaulo_library6_20190313.4210|Araraquara-SP|2019-02-15": {
+        "latitude": -21.7886713,
+        "longitude": -48.1773096
+      },
+      "BC08_DENV2_SaoPaulo_library2|SaoJoseRioPreto-SP|2019-04-29": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "BC08_DENV2_SaoPaulo_library6_20190313.4213|Araraquara-SP|2019-02-16": {
+        "latitude": -21.7886713,
+        "longitude": -48.1773096
+      },
+      "BC09_DENV2_SaoPaulo_library2|SaoJoseRioPreto-SP|2019-04-28": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "BC09_DENV2_SaoPaulo_library6_20190313.4216|Araraquara-SP|2019-02-16": {
+        "latitude": -21.7886713,
+        "longitude": -48.1773096
+      },
+      "BC10_DENV2_SaoPaulo_library2|SaoJoseRioPreto-SP|2019-04-15": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "BC10_DENV2_SaoPaulo_library6_20190313.4218|Araraquara-SP|2019-02-08": {
+        "latitude": -21.7886713,
+        "longitude": -48.1773096
+      },
+      "BC11_DENV2_SaoPaulo_library6_20190313.4105|Araraquara-SP|2019-02-21": {
+        "latitude": -21.7886713,
+        "longitude": -48.1773096
+      },
+      "DENV2|AF208496|DEN2_H_IMTSSA-MART_98-703|Martinique|1998": {
+        "latitude": 18.1850507,
+        "longitude": -77.3947693
+      },
+      "DENV2|AY702034|Cuba13_97|Cuba|1997": {
+        "latitude": 21.3271809,
+        "longitude": -77.8228634
+      },
+      "DENV2|AY702035|Cuba58_97|Cuba|1997": {
+        "latitude": 21.3271809,
+        "longitude": -77.8228634
+      },
+      "DENV2|AY702036|Cuba115_97|Cuba|1997": {
+        "latitude": 21.3271809,
+        "longitude": -77.8228634
+      },
+      "DENV2|AY702037|Cuba89_97|Cuba|1997": {
+        "latitude": 21.3271809,
+        "longitude": -77.8228634
+      },
+      "DENV2|AY702038|Cuba165_97|Cuba|1997": {
+        "latitude": 21.3271809,
+        "longitude": -77.8228634
+      },
+      "DENV2|AY702039|Cuba205_97|Cuba|1997": {
+        "latitude": 21.3271809,
+        "longitude": -77.8228634
+      },
+      "DENV2|EU482444|DENV-2_NI_BID-V563_2006|Nicaragua_Managua|2006": {
+        "latitude": 12.1461244,
+        "longitude": -86.273717
+      },
+      "DENV2|EU482544|DENV-2_US_BID-V1031_2006|USA_Puerto_Rico|2006": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482545|DENV-2_US_BID-V1032_1998|USA_Puerto_Rico|1998": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482546|DENV-2_US_BID-V1033_1998|USA_Puerto_Rico|1998": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482547|DENV-2_US_BID-V1034_1998|USA_Puerto_Rico|1998": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482548|DENV-2_US_BID-V1035_2006|USA_Puerto_Rico|2006": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482549|DENV-2_US_BID-V1036_2006|USA_Puerto_Rico|2006": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482550|DENV-2_US_BID-V1038_1998|USA_Puerto_Rico|1998": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482551|DENV-2_US_BID-V1039_2006|USA_Puerto_Rico|2006": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482552|DENV-2_US_BID-V1040_2006|USA_Puerto_Rico|2006": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482553|DENV-2_US_BID-V1041_2006|USA_Puerto_Rico|2006": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482554|DENV-2_US_BID-V1042_1998|USA_Puerto_Rico|1998": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482556|DENV-2_US_BID-V1045_2005|USA_Puerto_Rico|2005": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482560|DENV-2_US_BID-V1052_1998|USA_Puerto_Rico|1998": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482561|DENV-2_US_BID-V1054_1996|USA_Puerto_Rico|1996": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482562|DENV-2_US_BID-V1060_1989|USA_Puerto_Rico|1989": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482568|DENV-2_US_BID-V1164_1986|USA_Puerto_Rico|1986": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482569|DENV-2_US_BID-V1165_1987|USA_Puerto_Rico|1987": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482570|DENV-2_US_BID-V1166_1987|USA_Puerto_Rico|1987": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482571|DENV-2_US_BID-V1167_1987|USA_Puerto_Rico|1987": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482572|DENV-2_US_BID-V1168_1987|USA_Puerto_Rico|1987": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482573|DENV-2_US_BID-V1169_1987|USA_Puerto_Rico|1987": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482574|DENV-2_US_BID-V1170_1987|USA_Puerto_Rico|1987": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482575|DENV-2_US_BID-V1171_1987|USA_Puerto_Rico|1987": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482576|DENV-2_US_BID-V1172_1987|USA_Puerto_Rico|1987": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482577|DENV-2_US_BID-V1174_1987|USA_Puerto_Rico|1987": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482578|DENV-2_US_BID-V1175_1988|USA_Puerto_Rico|1988": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482579|DENV-2_US_BID-V1176_1988|USA_Puerto_Rico|1988": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482580|DENV-2_US_BID-V1177_1989|USA_Puerto_Rico|1989": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482581|DENV-2_US_BID-V1178_1989|USA_Puerto_Rico|1989": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482582|DENV-2_US_BID-V1179_1989|USA_Puerto_Rico|1989": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482583|DENV-2_US_BID-V1180_1989|USA_Puerto_Rico|1989": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482584|DENV-2_US_BID-V1181_1989|USA_Puerto_Rico|1989": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482585|DENV-2_US_BID-V1182_1989|USA_Puerto_Rico|1989": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482586|DENV-2_US_BID-V1183_1990|USA_Puerto_Rico|1990": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482587|DENV-2_US_BID-V1188_1990|USA_Puerto_Rico|1990": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482588|DENV-2_US_BID-V1189_1990|USA_Puerto_Rico|1990": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482589|DENV-2_US_BID-V1360_1993|USA_Puerto_Rico|1993": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482590|DENV-2_US_BID-V851_1990|USA_Puerto_Rico|1990": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482593|DENV-2_US_BID-V854_2001|USA_Puerto_Rico|2001": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482594|DENV-2_US_BID-V855_1992|USA_Puerto_Rico|1992": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482601|DENV-2_NI_BID-V663_2007|Nicaragua_Managua|2007": {
+        "latitude": 12.1461244,
+        "longitude": -86.273717
+      },
+      "DENV2|EU482603|DENV-2_NI_BID-V615_2007|Nicaragua_Managua|2007": {
+        "latitude": 12.1461244,
+        "longitude": -86.273717
+      },
+      "DENV2|EU482604|DENV-2_VE_BID-V1095_2007|Venezuela_Aragua|2007": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|EU482605|DENV-2_VE_BID-V1104_2007|Venezuela_Aragua|2007": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|EU482606|DENV-2_VE_BID-V1105_2007|Venezuela_Aragua|2007": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|EU482607|DENV-2_VE_BID-V1107_2007|Venezuela_Aragua|2007": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|EU482608|DENV-2_VE_BID-V1111_2007|Venezuela_Aragua|2007": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|EU482623|DENV-2_NI_BID-V1210_2007|Nicaragua_Managua|2007": {
+        "latitude": 12.1461244,
+        "longitude": -86.273717
+      },
+      "DENV2|EU482719|DENV-2_US_BID-V587_2006|USA_Puerto_Rico|2006": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482720|DENV-2_US_BID-V588_2006|USA_Puerto_Rico|2006": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482722|DENV-2_US_BID-V591_2002|USA_Puerto_Rico|2002": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482723|DENV-2_US_BID-V592_2002|USA_Puerto_Rico|2002": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482725|DENV-2_US_BID-V594_2006|USA_Puerto_Rico|2006": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482731|DENV-2_US_BID-V600_2005|USA_Puerto_Rico|2005": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482732|DENV-2_US_BID-V675_1998|USA_Puerto_Rico|1998": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482733|DENV-2_US_BID-V676_1998|USA_Puerto_Rico|1998": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482734|DENV-2_US_BID-V677_1998|USA_Puerto_Rico|1998": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482735|DENV-2_US_BID-V678_1998|USA_Puerto_Rico|1998": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482736|DENV-2_US_BID-V679_1994|USA_Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482739|DENV-2_US_BID-V682_1994|USA_Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482740|DENV-2_US_BID-V683_1994|USA_Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482742|DENV-2_US_BID-V685_1988|USA_Puerto_Rico|1988": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482743|DENV-2_US_BID-V686_1989|USA_Puerto_Rico|1989": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482744|DENV-2_US_BID-V687_1989|USA_Puerto_Rico|1989": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482745|DENV-2_US_BID-V688_1989|USA_Puerto_Rico|1989": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482746|DENV-2_US_BID-V689_1989|USA_Puerto_Rico|1989": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482747|DENV-2_US_BID-V690_1988|USA_Puerto_Rico|1988": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU482755|DENV-2_NI_BID-V531_2005|Nicaragua_Managua|2005": {
+        "latitude": 12.1461244,
+        "longitude": -86.273717
+      },
+      "DENV2|EU529693|DENV-2_US_BID-V1046_2004|USA_Puerto_Rico|2004": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU529695|DENV-2_US_BID-V1058_1994|USA_Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU529700|DENV-2_US_BID-V1085_1994|USA_Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU529701|DENV-2_US_BID-V1087_1991|USA_Puerto_Rico|1991": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU529706|DENV-2_US_BID-V585_2006|USA_Puerto_Rico|2006": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU569703|DENV-2_US_BID-V1055_1996|USA_Puerto_Rico|1996": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU569704|DENV-2_US_BID-V1163_1986|USA_Puerto_Rico|1986": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU569706|DENV-2_US_BID-V1367_1995|USA_Puerto_Rico|1995": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU569707|DENV-2_US_BID-V1368_1995|USA_Puerto_Rico|1995": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU569708|DENV-2_US_BID-V1373_1995|USA_Puerto_Rico|1995": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU569709|DENV-2_US_BID-V1376_1996|USA_Puerto_Rico|1996": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU569710|DENV-2_US_BID-V1383_1996|USA_Puerto_Rico|1996": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU569714|DENV-2_US_BID-V1396_1997|USA_Puerto_Rico|1997": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU569718|DENV-2_US_BID-V1401_1997|USA_Puerto_Rico|1997": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU569719|DENV-2_US_BID-V1404_1997|USA_Puerto_Rico|1997": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU569720|DENV-2_US_BID-V1409_1997|USA_Puerto_Rico|1997": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU596485|DENV-2_US_BID-V1378_1996|USA_Puerto_Rico|1996": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU596488|DENV-2_US_BID-V1410_2007|USA_Puerto_Rico|2007": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU596489|DENV-2_US_BID-V1411_2007|USA_Puerto_Rico|2007": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU596490|DENV-2_US_BID-V1412_2007|USA_Puerto_Rico|2007": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU596491|DENV-2_US_BID-V1413_2007|USA_Puerto_Rico|2007": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU660398|DENV-2_US_BID-V1061_1989|USA_Puerto_Rico|1989": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU660399|DENV-2_US_BID-V1372_1995|USA_Puerto_Rico|1995": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU660400|DENV-2_US_BID-V1388_1998|USA_Puerto_Rico|1998": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU677141|DENV-2_US_BID-V1424_1996|USA_Puerto_Rico|1996": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU677142|DENV-2_US_BID-V1425_1999|USA_Puerto_Rico|1999": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU677143|DENV-2_US_BID-V1426_1999|USA_Puerto_Rico|1999": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU677145|DENV-2_US_BID-V1428_1999|USA_Puerto_Rico|1999": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU677146|DENV-2_US_BID-V1431_2004|USA_Puerto_Rico|2004": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU677147|DENV-2_US_BID-V1432_2004|USA_Puerto_Rico|2004": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU687212|DENV-2_US_BID-V1387_1998|USA_Puerto_Rico|1998": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU687213|DENV-2_US_BID-V1434_2004|USA_Puerto_Rico|2004": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU687216|DENV-2_US_BID-V1439_2005|USA_Puerto_Rico|2005": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU687217|DENV-2_US_BID-V1441_2005|USA_Puerto_Rico|2005": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU687220|DENV-2_VE_BID-V1456_1996|Venezuela_Aragua|1996": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|EU687227|DENV-2_US_BID-V1467_2001|USA_Puerto_Rico|2001": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU687228|DENV-2_US_BID-V1468_2001|USA_Puerto_Rico|2001": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU687230|DENV-2_US_BID-V1470_2001|USA_Puerto_Rico|2001": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU687231|DENV-2_US_BID-V1471_2001|USA_Puerto_Rico|2001": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU687232|DENV-2_US_BID-V1472_2001|USA_Puerto_Rico|2001": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU687240|DENV-2_US_BID-V1492_2003|USA_Puerto_Rico|2003": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU687241|DENV-2_US_BID-V1493_2003|USA_Puerto_Rico|2003": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU687243|DENV-2_US_BID-V1495_2004|USA_Puerto_Rico|2004": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU687245|DENV-2_US_BID-V1497_2005|USA_Puerto_Rico|2005": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU726770|DENV-2_US_BID-V1440_2005|USA_Puerto_Rico|2005": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU726775|DENV-2_VE_BID-V1457_1996|Venezuela_Aragua|1996": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|EU781135|DENV-2_US_BID-V1442_2005|USA_Puerto_Rico|2005": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|EU854294|DENV-2_CO_BID-V1601_2005|Colombia_Guaviare|2005": {
+        "latitude": 1.6894444,
+        "longitude": -72.8202864
+      },
+      "DENV2|EU920828|FGU-Feb-93|French_Guiana|1993-02": {
+        "latitude": 4.0039882,
+        "longitude": -52.999998
+      },
+      "DENV2|EU920829|FGU-Jun-97|French_Guiana|1997-06": {
+        "latitude": 4.0039882,
+        "longitude": -52.999998
+      },
+      "DENV2|EU920830|FGU-Fev-98|French_Guiana|1998-02": {
+        "latitude": 4.0039882,
+        "longitude": -52.999998
+      },
+      "DENV2|EU920831|FGU-Aug-98|French_Guiana|1998-08": {
+        "latitude": 4.0039882,
+        "longitude": -52.999998
+      },
+      "DENV2|EU920832|FGU-May-99|French_Guiana|1999-05": {
+        "latitude": 4.0039882,
+        "longitude": -52.999998
+      },
+      "DENV2|EU920833|FGU-Jan-00|French_Guiana|2000-01": {
+        "latitude": 4.0039882,
+        "longitude": -52.999998
+      },
+      "DENV2|EU920834|FGU-Dec-01|French_Guiana|2001-12": {
+        "latitude": 4.0039882,
+        "longitude": -52.999998
+      },
+      "DENV2|EU920835|FGU-Apr-02|French_Guiana|2002-04": {
+        "latitude": 4.0039882,
+        "longitude": -52.999998
+      },
+      "DENV2|EU920836|MAR-Jun-05|Martinique|2005-06": {
+        "latitude": 18.1850507,
+        "longitude": -77.3947693
+      },
+      "DENV2|EU920837|MAR-Aug-05|Martinique|2005-08": {
+        "latitude": 18.1850507,
+        "longitude": -77.3947693
+      },
+      "DENV2|EU920838|SUR-Aug-05|Suriname|2005-08": {
+        "latitude": 4.1413025,
+        "longitude": -56.0771187
+      },
+      "DENV2|EU920840|FGU-Oct-05|French_Guiana|2005-10": {
+        "latitude": 4.0039882,
+        "longitude": -52.999998
+      },
+      "DENV2|EU920841|MAR-Oct-05|Martinique|2005-10": {
+        "latitude": 18.1850507,
+        "longitude": -77.3947693
+      },
+      "DENV2|EU920842|SUR-Oct-05|Suriname|2005-10": {
+        "latitude": 4.1413025,
+        "longitude": -56.0771187
+      },
+      "DENV2|EU920843|MAR-Nov-05|Martinique|2005-11": {
+        "latitude": 18.1850507,
+        "longitude": -77.3947693
+      },
+      "DENV2|EU920844|FGU-Jan1-06|French_Guiana|2006-01": {
+        "latitude": 4.0039882,
+        "longitude": -52.999998
+      },
+      "DENV2|EU920845|FGU-Jan2-06|French_Guiana|2006-01": {
+        "latitude": 4.0039882,
+        "longitude": -52.999998
+      },
+      "DENV2|EU920846|FGU-Mar-06|French_Guiana|2006-03": {
+        "latitude": 4.0039882,
+        "longitude": -52.999998
+      },
+      "DENV2|EU920847|FGU-Apr1-06|French_Guiana|2006-04": {
+        "latitude": 4.0039882,
+        "longitude": -52.999998
+      },
+      "DENV2|EU920848|FGU-Apr2-06|French_Guiana|2006-04": {
+        "latitude": 4.0039882,
+        "longitude": -52.999998
+      },
+      "DENV2|EU920849|GUA-Sep-06|Guadeloupe|2006-09": {
+        "latitude": 16.2490067,
+        "longitude": -61.5650444
+      },
+      "DENV2|FJ024473|DENV-2_CO_BID-V1594_2005|Colombia_Guaviare|2005": {
+        "latitude": 1.6894444,
+        "longitude": -72.8202864
+      },
+      "DENV2|FJ024474|DENV-2_CO_BID-V1595_2005|Colombia_Guaviare|2005": {
+        "latitude": 1.6894444,
+        "longitude": -72.8202864
+      },
+      "DENV2|FJ024475|DENV-2_CO_BID-V1596_2005|Colombia_Guaviare|2005": {
+        "latitude": 1.6894444,
+        "longitude": -72.8202864
+      },
+      "DENV2|FJ024477|DENV-2_CO_BID-V1603_2004|Colombia_Antioquia|2004": {
+        "latitude": 7.0000085,
+        "longitude": -75.5000086
+      },
+      "DENV2|FJ182012|DENV-2_CO_BID-V1597_2005|Colombia_Guaviare|2005": {
+        "latitude": 1.6894444,
+        "longitude": -72.8202864
+      },
+      "DENV2|FJ639732|DENV-2_VE_BID-V2158_2005|Venezuela_Aragua|2005": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|FJ639733|DENV-2_VE_BID-V2159_2005|Venezuela_Aragua|2005": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|FJ639734|DENV-2_VE_BID-V2160_2003|Venezuela_Aragua|2003": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|FJ639783|DENV-2_VE_BID-V2216_2003|Venezuela_Aragua|2003": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|FJ639788|DENV-2_VE_BID-V2221_2004|Venezuela_Aragua|2004": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|FJ639809|DENV-2_VE_BID-V2246_2005|Venezuela_Aragua|2005": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|FJ639822|DENV-2_VE_BID-V2262_2006|Venezuela_Aragua|2006": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|FJ850050|DENV-2_NI_BID-V2356_2007|Nicaragua_Managua|2007": {
+        "latitude": 12.1461244,
+        "longitude": -86.273717
+      },
+      "DENV2|FJ850060|DENV-2_NI_BID-V2344_2000|Nicaragua_Leon|2000": {
+        "latitude": 12.4345,
+        "longitude": -86.8773
+      },
+      "DENV2|FJ850072|DENV-2_BR_BID-V2376_2000|Brazil_Northern|2000": {
+        "latitude": -2.09,
+        "longitude": -58.31
+      },
+      "DENV2|FJ850074|DENV-2_BR_BID-V2379_2001|Brazil_Northern|2001": {
+        "latitude": -2.084,
+        "longitude": -58.42
+      },
+      "DENV2|FJ850076|DENV-2_BR_BID-V2382_2002|Brazil_Northern|2002": {
+        "latitude": -2.093,
+        "longitude": -58.32
+      },
+      "DENV2|FJ850078|DENV-2_BR_BID-V2386_2003|Brazil_Northern|2003": {
+        "latitude": -2.082,
+        "longitude": -58.31
+      },
+      "DENV2|FJ850082|DENV-2_BR_BID-V2390_2004|Brazil_Northern|2004": {
+        "latitude": -2.098,
+        "longitude": -58.39
+      },
+      "DENV2|FJ850085|DENV-2_BR_BID-V2393_2005|Brazil_Northern|2005": {
+        "latitude": -2.091,
+        "longitude": -58.41
+      },
+      "DENV2|FJ850088|DENV-2_BR_BID-V2396_2006|Brazil_Northern|2006": {
+        "latitude": -2.079,
+        "longitude": -58.45
+      },
+      "DENV2|FJ850091|DENV-2_BR_BID-V2399_2007|Brazil_Northern|2007": {
+        "latitude": -2.081,
+        "longitude": -58.37
+      },
+      "DENV2|FJ850105|DENV-2_VE_BID-V2470_2007|Venezuela_Aragua|2007": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|FJ850106|DENV-2_VE_BID-V2476_2008|Venezuela_Aragua|2008": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|FJ850107|DENV-2_VE_BID-V2477_2008|Venezuela_Aragua|2008": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|FJ850108|DENV-2_VE_BID-V2478_2008|Venezuela_Aragua|2008": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|FJ850112|DENV-2_VE_BID-V2424_2004|Venezuela_District_Federal_Caracas|2004": {
+        "latitude": 10.5061,
+        "longitude": -66.9146
+      },
+      "DENV2|FJ850119|DENV-2_NI_BID-V2662_2000|Nicaragua_Managua|2000": {
+        "latitude": 12.1461244,
+        "longitude": -86.273717
+      },
+      "DENV2|FJ850120|DENV-2_NI_BID-V2673_2001|Nicaragua_Managua|2001": {
+        "latitude": 12.1461244,
+        "longitude": -86.273717
+      },
+      "DENV2|FJ873808|DENV-2_NI_BID-V2666_2000|Nicaragua_Leon|2000": {
+        "latitude": 12.4345,
+        "longitude": -86.8773
+      },
+      "DENV2|FJ898438|DENV-2_MX_BID-V2953_2002|Mexico_Nayarit|2002": {
+        "latitude": 22.0000001,
+        "longitude": -105.0000001
+      },
+      "DENV2|FJ898439|DENV-2_MX_BID-V2964_2008|Mexico_Chiapas|2008": {
+        "latitude": 16.5000001,
+        "longitude": -92.5000001
+      },
+      "DENV2|FJ898450|DENV-2_VI_BID-V2948_1990|Virgin_Islands_U_S__Virgin_Islands_SaintThomas|1990": {
+        "latitude": 17.789187,
+        "longitude": -64.7080574
+      },
+      "DENV2|FJ898451|DENV-2_DO_BID-V2955_2003|Dominican_Republic|2003": {
+        "latitude": 18.892313,
+        "longitude": -70.2068471
+      },
+      "DENV2|FJ898460|DENV-2_KN_BID-V2951_2001|Saint_Kitts_and_Nevis_Saint_Kitts|2001": {
+        "latitude": 17.3462278,
+        "longitude": -62.7687277
+      },
+      "DENV2|FJ898461|DENV-2_BZ_BID-V2952_2002|Belize|2002": {
+        "latitude": 16.8259793,
+        "longitude": -88.7600927
+      },
+      "DENV2|FJ898465|DENV-2_VE_BID-V2941_1998|Venezuela_Aragua|1998": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|FJ898466|DENV-2_VE_BID-V2942_2000|Venezuela_Aragua|2000": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|FJ898467|DENV-2_VE_BID-V2944_2005|Venezuela_Aragua|2005": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|FJ898478|DENV-2_NI_BID-V2924_2000|Nicaragua_Leon|2000": {
+        "latitude": 12.4345,
+        "longitude": -86.8773
+      },
+      "DENV2|GQ199890|DENV-2_BR_BID-V2402_2008|Brazil_Northern|2008": {
+        "latitude": -2.092,
+        "longitude": -58.34
+      },
+      "DENV2|GQ199892|DENV-2_JM_BID-V2963_2007|Jamaica|2007": {
+        "latitude": 18.1850507,
+        "longitude": -77.3947693
+      },
+      "DENV2|GQ199893|DENV-2_MX_BID-V2954_2002|Mexico_Oaxaca|2002": {
+        "latitude": 20.490881,
+        "longitude": -100.8152195
+      },
+      "DENV2|GQ199894|DENV-2_MX_BID-V2959_2005|Mexico_Hidalgo|2005": {
+        "latitude": 20.5,
+        "longitude": -99.0
+      },
+      "DENV2|GQ199895|DENV-2_NI_BID-V2683_1999|Nicaragua_Managua|1999": {
+        "latitude": 12.1461244,
+        "longitude": -86.273717
+      },
+      "DENV2|GQ199898|DENV-2_NI_BID-V3076_2001|Nicaragua_Managua|2001": {
+        "latitude": 12.1461244,
+        "longitude": -86.273717
+      },
+      "DENV2|GQ398270|DENV-2_PR_2DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398271|DENV-2_PR_15DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398274|DENV-2_PR_23DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398275|DENV-2_PR_33DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398276|DENV-2_PR_26DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398277|DENV-2_PR_38DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398278|DENV-2_PR_40DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398279|DENV-2_PR_24DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398282|DENV-2_PR_35DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398283|DENV-2_PR_37DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398284|DENV-2_PR_36DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398285|DENV-2_PR_12DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398286|DENV-2_PR_42DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398287|DENV-2_PR_46DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398288|DENV-2_PR_10DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398289|DENV-2_PR_30DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398290|DENV-2_PR_31DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398291|DENV-2_PR_29DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398294|DENV-2_PR_45DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398295|DENV-2_PR_14DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398296|DENV-2_PR_44DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398297|DENV-2_PR_21DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398298|DENV-2_PR_16DN_1995|Puerto_Rico|1995": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398299|DENV-2_PR_25DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398304|DENV-2_PR_4DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398305|DENV-2_PR_5DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398306|DENV-2_PR_22DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398307|DENV-2_PR_19DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398308|DENV-2_PR_3DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398309|DENV-2_PR_1DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398310|DENV-2_PR_48DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398313|DENV-2_PR_11DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ398314|DENV-2_PR_13DN_1994|Puerto_Rico|1994": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ868516|DENV-2_MX_BID-V3714_2007|Mexico_Yucatan|2007": {
+        "latitude": 20.6845957,
+        "longitude": -88.8755669
+      },
+      "DENV2|GQ868540|DENV-2_VE_BID-V3496_1990|Venezuela_Maracay|1990": {
+        "latitude": 10.2514,
+        "longitude": -67.6017
+      },
+      "DENV2|GQ868541|DENV-2_VE_BID-V3497_1991|Venezuela_Aragua|1991": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|GQ868549|DENV-2_BR_BID-V3481_2008|Brazil_Sao_Paulo|2008": {
+        "latitude": -23.55052,
+        "longitude": -46.633308
+      },
+      "DENV2|GQ868550|DENV-2_BR_BID-V3483_2008|Brazil_Sao_Paulo|2008": {
+        "latitude": -23.55052,
+        "longitude": -46.633308
+      },
+      "DENV2|GQ868551|DENV-2_BR_BID-V3486_2008|Brazil_Sao_Paulo|2008": {
+        "latitude": -23.55052,
+        "longitude": -46.633308
+      },
+      "DENV2|GQ868552|DENV-2_CO_BID-V3368_1998|Colombia_Santander|1998": {
+        "latitude": 7.0000085,
+        "longitude": -73.2500086
+      },
+      "DENV2|GQ868553|DENV-2_CO_BID-V3369_1999|Colombia_Santander|1999": {
+        "latitude": 7.0000085,
+        "longitude": -73.2500086
+      },
+      "DENV2|GQ868554|DENV-2_CO_BID-V3370_2004|Colombia_Santander|2004": {
+        "latitude": 7.0000085,
+        "longitude": -73.2500086
+      },
+      "DENV2|GQ868555|DENV-2_CO_BID-V3371_2005|Colombia_Norte_de_Santander|2005": {
+        "latitude": 8.4417924,
+        "longitude": -73.0492505
+      },
+      "DENV2|GQ868556|DENV-2_CO_BID-V3372_2005|Colombia_Norte_de_Santander|2005": {
+        "latitude": 8.4417924,
+        "longitude": -73.0492505
+      },
+      "DENV2|GQ868557|DENV-2_CO_BID-V3373_2005|Colombia_Norte_de_Santander|2005": {
+        "latitude": 8.4417924,
+        "longitude": -73.0492505
+      },
+      "DENV2|GQ868558|DENV-2_CO_BID-V3375_2007|Colombia_Santander|2007": {
+        "latitude": 8.4417924,
+        "longitude": -73.0492505
+      },
+      "DENV2|GQ868595|DENV-2_VE_BID-V3362_1991|Venezuela|1991": {
+        "latitude": 8.0018709,
+        "longitude": -66.1109318
+      },
+      "DENV2|GQ868596|DENV-2_VE_BID-V3363_1991|Venezuela|1991": {
+        "latitude": 8.0018709,
+        "longitude": -66.1109318
+      },
+      "DENV2|GQ868597|DENV-2_VE_BID-V3364_1991|Venezuela|1991": {
+        "latitude": 8.0018709,
+        "longitude": -66.1109318
+      },
+      "DENV2|GQ868598|DENV-2_VE_BID-V3365_1991|Venezuela|1991": {
+        "latitude": 8.0018709,
+        "longitude": -66.1109318
+      },
+      "DENV2|GQ868603|DENV-2_VI_BID-V2946_1987|Virgin_Islands_Saint_John|1987": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|GQ868604|DENV-2_NI_BID-V518_2005|Nicaragua_Managua|2005": {
+        "latitude": 12.1461244,
+        "longitude": -86.273717
+      },
+      "DENV2|GQ868640|DENV-2_BR_BID-V2385_2003|Brazil_Northern|2003": {
+        "latitude": -2.099,
+        "longitude": -58.35
+      },
+      "DENV2|GQ868641|DENV-2_VE_BID-V1144_2007|Venezuela_Aragua|2007": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|GU131864|DENV-2_BR_BID-V3495_2008|Brazil_Sao_Paulo|2008": {
+        "latitude": -23.55052,
+        "longitude": -46.633308
+      },
+      "DENV2|GU131879|DENV-2_BR_BID-V3638_2008|Brazil_Sao_Paulo|2008": {
+        "latitude": -23.55052,
+        "longitude": -46.633308
+      },
+      "DENV2|GU131880|DENV-2_BR_BID-V3640_2008|Brazil_Sao_Paulo|2008": {
+        "latitude": -23.55052,
+        "longitude": -46.633308
+      },
+      "DENV2|GU131881|DENV-2_BR_BID-V3644_2008|Brazil_Sao_Paulo|2008": {
+        "latitude": -23.928814,
+        "longitude": -46.363509
+      },
+      "DENV2|GU131882|DENV-2_BR_BID-V3645_2008|Brazil_Sao_Paulo|2008": {
+        "latitude": -23.55052,
+        "longitude": -46.633308
+      },
+      "DENV2|GU131883|DENV-2_BR_BID-V3648_2008|Brazil_Sao_Paulo|2008": {
+        "latitude": -23.55052,
+        "longitude": -46.633308
+      },
+      "DENV2|GU131884|DENV-2_BR_BID-V3650_2008|Brazil_Sao_Paulo|2008": {
+        "latitude": -23.55052,
+        "longitude": -46.633308
+      },
+      "DENV2|GU131885|DENV-2_BR_BID-V3653_2008|Brazil_Sao_Paulo|2008": {
+        "latitude": -23.55052,
+        "longitude": -46.633308
+      },
+      "DENV2|GU131947|DENV-2_CO_BID-V3374_2007|Colombia_Santander|2007": {
+        "latitude": 8.4417924,
+        "longitude": -73.0492505
+      },
+      "DENV2|GU131974|DENV-2_MX_BID-V3715_2007|Mexico_Yucatan|2007": {
+        "latitude": 20.6845957,
+        "longitude": -88.8755669
+      },
+      "DENV2|GU131975|DENV-2_MX_BID-V3717_2007|Mexico_Yucatan|2007": {
+        "latitude": 20.6845957,
+        "longitude": -88.8755669
+      },
+      "DENV2|GU369819|CAM7786|Mexico|2002-08-22": {
+        "latitude": 23.634501,
+        "longitude": -102.552788
+      },
+      "DENV2|HM181971|DENV-2_BR_BID-V3637_2008|Brazil_Sao_Paulo|2008": {
+        "latitude": -23.55052,
+        "longitude": -46.633308
+      },
+      "DENV2|HM631865|DENV-2_NI_BID-V4156_2007|Nicaragua_Managua|2007": {
+        "latitude": 12.1461244,
+        "longitude": -86.273717
+      },
+      "DENV2|HQ012533|BR41768_RJ_90|Brazil|1990": {
+        "latitude": -22.906847,
+        "longitude": -43.172897
+      },
+      "DENV2|HQ012534|BR42727_RJ_91|Brazil|1991": {
+        "latitude": -22.906847,
+        "longitude": -43.172897
+      },
+      "DENV2|HQ012535|BR48622_CE_94|Brazil|1994": {
+        "latitude": -5.3264703,
+        "longitude": -39.7156073
+      },
+      "DENV2|HQ012536|BR61310_RJ_98|Brazil|1998": {
+        "latitude": -22.906847,
+        "longitude": -43.172897
+      },
+      "DENV2|HQ012537|BR64905_RJ_99|Brazil|1999": {
+        "latitude": -22.906847,
+        "longitude": -43.172897
+      },
+      "DENV2|HQ012538|BR39145_RJ_90|Brazil|1990": {
+        "latitude": -22.906847,
+        "longitude": -43.172897
+      },
+      "DENV2|HQ026763|BR0690_RJ_2008|Brazil|2008": {
+        "latitude": -22.906847,
+        "longitude": -43.172897
+      },
+      "DENV2|HQ332184|VE_61069_2006|Venezuela|2006": {
+        "latitude": 8.0018709,
+        "longitude": -66.1109318
+      },
+      "DENV2|HQ332185|VE_61082_2007|Venezuela|2007": {
+        "latitude": 8.0018709,
+        "longitude": -66.1109318
+      },
+      "DENV2|HQ332186|VE_61115_2007|Venezuela|2007": {
+        "latitude": 8.0018709,
+        "longitude": -66.1109318
+      },
+      "DENV2|HQ332187|VE_61133_2007|Venezuela|2007": {
+        "latitude": 8.0018709,
+        "longitude": -66.1109318
+      },
+      "DENV2|HQ332188|VE_61136_2007|Venezuela|2007": {
+        "latitude": 8.0018709,
+        "longitude": -66.1109318
+      },
+      "DENV2|HQ332189|VE_61154_2007|Venezuela|2007": {
+        "latitude": 8.0018709,
+        "longitude": -66.1109318
+      },
+      "DENV2|HQ332190|VE_61095_2007|Venezuela|2007": {
+        "latitude": 8.0018709,
+        "longitude": -66.1109318
+      },
+      "DENV2|HQ999999|DENV-2_GU_FDA-GUA09_2009|Guatemala_Guatemala_City|2009": {
+        "latitude": 14.6418,
+        "longitude": -90.5132
+      },
+      "DENV2|JF730052|DENV-2_NI_BID-V5073_2009|Nicaragua_Managua|2009": {
+        "latitude": 12.1461244,
+        "longitude": -86.273717
+      },
+      "DENV2|JN819407|DENV-2_VE_BID-V2613_2007|Venezuela_Merida|2007": {
+        "latitude": 8.59741,
+        "longitude": -71.1444
+      },
+      "DENV2|JN819408|DENV-2_VE_BID-V2161_2001|Venezuela_Aragua|2001": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|JN819416|DENV-2_NI_BID-V2661_2000|Nicaragua_Managua|2000": {
+        "latitude": 12.1461244,
+        "longitude": -86.273717
+      },
+      "DENV2|JN819419|DENV-2_BR_BID-V2377_2000|Brazil_Northern|2000": {
+        "latitude": -2.087,
+        "longitude": -58.37166
+      },
+      "DENV2|JN819422|DENV-2_MX_BID-V3763_2008|Mexico_Tapachula|2008": {
+        "latitude": 14.92746,
+        "longitude": -92.3223122
+      },
+      "DENV2|JX073928|BR_DEN2_01-01|Brazil|2001": {
+        "latitude": -2.095,
+        "longitude": -58.375
+      },
+      "DENV2|JX079688|DENV-2_NI_BID-V3152_2008|Nicaragua_Ciudad_Sandino|2008": {
+        "latitude": 12.1649,
+        "longitude": -86.3557
+      },
+      "DENV2|JX286516|ACS46|Brazil_Santos_Sao_Paulo|2010-03-01": {
+        "latitude": -23.928814,
+        "longitude": -46.363509
+      },
+      "DENV2|JX286517|ACS46_II|Brazil|2010-03-01": {
+        "latitude": -23.928814,
+        "longitude": -46.363509
+      },
+      "DENV2|JX286518|ACS538|Brazil|2010-04-12": {
+        "latitude": -23.928814,
+        "longitude": -46.363509
+      },
+      "DENV2|JX286519|ACS542|Brazil|2010-05-04": {
+        "latitude": -23.928814,
+        "longitude": -46.363509
+      },
+      "DENV2|JX286520|DGV37|Brazil|2010-02-24": {
+        "latitude": -23.928814,
+        "longitude": -46.363509
+      },
+      "DENV2|JX286521|ACS721|Brazil|2010-05-04": {
+        "latitude": -23.928814,
+        "longitude": -46.363509
+      },
+      "DENV2|JX286522|DGV34|Brazil|2010-02-24": {
+        "latitude": -23.928814,
+        "longitude": -46.363509
+      },
+      "DENV2|JX286523|DGV91|Brazil|2010-03-24": {
+        "latitude": -23.928814,
+        "longitude": -46.363509
+      },
+      "DENV2|JX286524|DGV106|Brazil|2010-04-15": {
+        "latitude": -23.928814,
+        "longitude": -46.363509
+      },
+      "DENV2|JX286525|DGV69|Brazil|2010-03-09": {
+        "latitude": -23.928814,
+        "longitude": -46.363509
+      },
+      "DENV2|JX286526|ACS380|Brazil|2010-03-30": {
+        "latitude": -23.928814,
+        "longitude": -46.363509
+      },
+      "DENV2|JX567951|BR0337_2008_RJ_2008|Brazil_RJ|2008": {
+        "latitude": -22.906847,
+        "longitude": -43.172897
+      },
+      "DENV2|JX669476|13858_BR-PE_10|Brazil_Pernambuco|2010": {
+        "latitude": -8.813717,
+        "longitude": -36.954105
+      },
+      "DENV2|JX669477|14905_BR-PE_10|Brazil_Pernambuco|2010": {
+        "latitude": -8.813717,
+        "longitude": -36.954105
+      },
+      "DENV2|JX669478|19190_BR-PE_10|Brazil_Pernambuco|2010": {
+        "latitude": -8.813717,
+        "longitude": -36.954105
+      },
+      "DENV2|JX669479|9479_BR-PE_10|Brazil_Pernambuco|2010": {
+        "latitude": -8.813717,
+        "longitude": -36.954105
+      },
+      "DENV2|JX669480|3275_BR-PE_95|Brazil_Pernambuco|1995": {
+        "latitude": -8.813717,
+        "longitude": -36.954105
+      },
+      "DENV2|JX669481|3311_BR-PE_95|Brazil_Pernambuco|1995": {
+        "latitude": -8.813717,
+        "longitude": -36.954105
+      },
+      "DENV2|JX669482|3337_BR-PE_95|Brazil_Pernambuco|1995": {
+        "latitude": -8.813717,
+        "longitude": -36.954105
+      },
+      "DENV2|JX669483|37473_BR-PE_97|Brazil_Pernambuco|1997": {
+        "latitude": -8.813717,
+        "longitude": -36.954105
+      },
+      "DENV2|JX669484|47913_BR-PE_98|Brazil_Pernambuco|1998": {
+        "latitude": -8.813717,
+        "longitude": -36.954105
+      },
+      "DENV2|JX669485|51347_BR-PE_98|Brazil_Pernambuco|1998": {
+        "latitude": -8.813717,
+        "longitude": -36.954105
+      },
+      "DENV2|JX669486|57135_BR-PE_99|Brazil_Pernambuco|1999": {
+        "latitude": -8.813717,
+        "longitude": -36.954105
+      },
+      "DENV2|JX669487|72144_BR-PE_00|Brazil_Pernambuco|2000": {
+        "latitude": -8.813717,
+        "longitude": -36.954105
+      },
+      "DENV2|JX669488|87086_BR-PE_02|Brazil_Pernambuco|2002": {
+        "latitude": -8.813717,
+        "longitude": -36.954105
+      },
+      "DENV2|KC294200|DENV-2_PE_FMD1337_2007|Peru_Puerto_Maldonado|2007-03-28": {
+        "latitude": -12.5938633,
+        "longitude": -69.1866773
+      },
+      "DENV2|KC294201|DENV-2_PE_FMD2303_2009|Peru_Puerto_Maldonado|2009-02-13": {
+        "latitude": -12.5938633,
+        "longitude": -69.1866773
+      },
+      "DENV2|KC294202|DENV-2_PE_FPI00073_2010|Peru_Iquitos|2010-12-13": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294203|DENV-2_PE_FPI00154_2010|Peru_Iquitos|2010-12-29": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294204|DENV-2_PE_FPI00174_2011|Peru_Iquitos|2011-01-03": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294205|DENV-2_PE_FPI0492_2011|Peru_Iquitos|2011-01-18": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294206|DENV-2_PE_FPI1049_2011|Peru_Iquitos|2011-02-07": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294207|DENV-2_PE_FPI01202_2011|Peru_Iquitos|2011-02-11": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294208|DENV-2_PE_FPI01345_2011|Peru_Iquitos|2011-02-23": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294209|DENV-2_PE_FPI01399_2011|Peru_Iquitos|2011-03-01": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294210|DENV-2_PE_FPI1617_2011|Peru_Iquitos|2011-03-23": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294211|DENV-2_PE_FPI01695_2011|Peru_Iquitos|2011-04-04": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294212|DENV-2_PE_FPI01777_2011|Peru_Iquitos|2011-04-24": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294213|DENV-2_PE_FPI01851_2011|Peru_Iquitos|2011-04-29": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294214|DENV-2_PE_FPI01915_2011|Peru_Iquitos|2011-05-11": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294215|DENV-2_PE_FPY00016_2010|Peru_Yurimaguas|2010-12-22": {
+        "latitude": -9.2006928,
+        "longitude": -76.0732161
+      },
+      "DENV2|KC294216|DENV-2_PE_FSL699_2002|Peru_Iquitos|2002-02-06": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294217|DENV-2_PE_FSL_4862_2010|Peru_Yurimaguas|2010-11-22": {
+        "latitude": -9.2006928,
+        "longitude": -76.0732161
+      },
+      "DENV2|KC294218|DENV-2_PE_IDA_1081_2011|Peru_Iquitos|2011-01-24": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294219|DENV-2_PE_IQA_1995_2010|Peru_Iquitos|2010-10-21": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294220|DENV-2_PE_IQA_2042_2010|Peru_Iquitos|2010-11-04": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294221|DENV-2_PE_IQA_2080_2010|Peru_Iquitos|2010-11-16": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294222|DENV-2_PE_NFI_52_2002|Peru_Iquitos|2002-03-22": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KC294223|DENV-2_PE_NFI1159_2010|Peru_Iquitos|2010-10-19": {
+        "latitude": -3.749365,
+        "longitude": -73.2444145
+      },
+      "DENV2|KF955346|DENV-2_VE_BID-V2473_2007|Venezuela|2007": {
+        "latitude": 10.0,
+        "longitude": -67.166667
+      },
+      "DENV2|KF955359|DENV-2_PR_BID-V586_2006|Puerto_Rico|2006": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|KF955360|DENV-2_PR_BID-V590_2006|Puerto_Rico|2006": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|KF955363|DENV-2_PR_BID-V856_1986|Puerto_Rico|1986": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|KF955364|DENV-2_PR_BID-V1037_2006|Puerto_Rico|2006": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|KF955372|DENV-2_PR_BID-V1406_1997|Puerto_Rico|1997": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|KF955373|DENV-2_PR_BID-V1408_1997|Puerto_Rico|1997": {
+        "latitude": 18.2214172,
+        "longitude": -66.4132819
+      },
+      "DENV2|KF955385|DENV-2_VE_BID-V2471_2007|Venezuela|2007": {
+        "latitude": 8.0018709,
+        "longitude": -66.1109318
+      },
+      "DENV2|KF955395|DENV-2_MX_BID-V3719_2007|Mexico|2007": {
+        "latitude": 23.634501,
+        "longitude": -102.552788
+      },
+      "DENV2|KJ189305|DENV-2_CO_BID-V7294_2000|Colombia|2000": {
+        "latitude": 7.0000085,
+        "longitude": -75.5000086
+      },
+      "DENV2|KJ189308|DENV-2_MX_BID-V7535_2009|Mexico|2009": {
+        "latitude": 23.634501,
+        "longitude": -102.552788
+      },
+      "DENV2|KJ189309|DENV-2_MX_BID-V7537_2010|Mexico|2010": {
+        "latitude": 23.634501,
+        "longitude": -102.552788
+      },
+      "DENV2|KJ189310|DENV-2_MX_BID-V7540_2007|Mexico|2007": {
+        "latitude": 23.634501,
+        "longitude": -102.552788
+      },
+      "DENV2|KJ189311|DENV-2_MX_BID-V7542_2007|Mexico|2007": {
+        "latitude": 20.6845957,
+        "longitude": -88.8755669
+      },
+      "DENV2|KJ189370|DENV-2_MX_BID-V8199_2011|Mexico|2011": {
+        "latitude": 23.634501,
+        "longitude": -102.552788
+      },
+      "DENV2|KP188549|BR_SJRP_327_2006|Brazil|2006-05-26": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "DENV2|KP188550|BR_SJRP_350_2008|Brazil|2008-06-17": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "DENV2|KP188551|BR_SJRP_567_2012|Brazil|2012-10-31": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "DENV2|KP188552|BR_SJRP_572_2012|Brazil|2012-11-28": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "DENV2|KP188553|BR_SJRP_615_2013|Brazil|2013-01-10": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "DENV2|KP188554|BR_SJRP_779_2013|Brazil|2013-02-04": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "DENV2|KP188555|BR_SJRP_846_2013|Brazil|2013-02-07": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "DENV2|KP188556|BR_SJRP_869_2013|Brazil|2013-02-08": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "DENV2|KP188569|BR_SJRP_2298_2014|Brazil|2014-04-03": {
+        "latitude": -20.810869,
+        "longitude": -49.379131
+      },
+      "DENV2|KU509267|DENV2-30|Guatemala|2010": {
+        "latitude": 15.6356088,
+        "longitude": -89.8988087
+      },
+      "DENV2|KX702403|Dengue_virus_2_Homo_sapiens_Haiti-1_2016|Haiti|2016-02-05": {
+        "latitude": 19.1399952,
+        "longitude": -72.3570972
+      },
+      "DENV2|KY415992|Homo_sapiens_Haiti-0078_2014|Haiti|2014-06-11": {
+        "latitude": 19.1399952,
+        "longitude": -72.3570972
+      },
+      "DENV2|KY474308|TD-00048-S|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474309|RL-00065-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474310|TD-00080-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474311|TD-00079-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474312|TD-00082-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474313|00127-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474314|RL-00028-S|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474315|00147-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474316|00155-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474317|TD-00021-S|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474318|00145-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474319|TD-00094-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474320|TD-00093-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474321|TD-00057-P-2WK|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474322|TD-00016-S|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474323|TD-00036-S|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474324|00143-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474325|00137-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474326|TD-00078-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474327|00142-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474328|00173-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474329|00149-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474330|00104-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474331|00166-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474332|TD-00077-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474333|TD-00074-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "DENV2|KY474334|00121-P|Ecuador_Machala|2014": {
+        "latitude": -3.2666667,
+        "longitude": -79.9666667
+      },
+      "MH069495.1|DENV2|VE/IDAMS/921099|Venezuela|2015-10-14": {
+        "latitude": 8.0018709,
+        "longitude": -66.1109318
+      },
+      "MH069496.1|DENV2|VE/IDAMS/921096|Venezuela|2015-10-26": {
+        "latitude": 8.0018709,
+        "longitude": -66.1109318
+      },
+      "MH069497.1|DENV2|VE/IDAMS/921095|Venezuela|2015-10-17": {
+        "latitude": 8.0018709,
+        "longitude": -66.1109318
+      },
+      "MH069498.1|DENV2|VE/IDAMS/910121|Venezuela|2015-10-06": {
+        "latitude": 8.0018709,
+        "longitude": -66.1109318
+      },
+      "MH069499.1|DENV2|VE/IDAMS/910105|Venezuela|2015-08-22": {
+        "latitude": 8.0018709,
+        "longitude": -66.1109318
+      },
+      "MH215277.1|DENV2|HomoSapiens/VEN-HUPAZ-1|Venezuela|2016": {
+        "latitude": 8.0018709,
+        "longitude": -66.1109318
+      }
+    }
+  },
+  "maintainer": [
+    "Nuno",
+    ""
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "VEME 2019: CADDE project & DENV-2",
+  "updated": "08 Aug 2019",
+  "virus_count": 411
+}
