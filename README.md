@@ -4,7 +4,28 @@ Data from [CADDE project](https://twitter.com/CaddeProject) for the Nextstrain t
 
 Please see [this virological post](http://virological.org/t/genomic-monitoring-of-dengue-virus-serotype-2-in-brazil-2019/312) for more information.
 
+
 ## Installing nextstrain locally
+
+#### Step 1a (if you're using the ubuntu virtual box)
+We need to install some basic software such as [conda](https://docs.conda.io/en/latest/miniconda.html) and curl first:
+```
+sudo apt --assume-yes install curl
+sudo apt --assume-yes install gcc
+curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+```
+close the terminal & reopen it -- you'll now be in the default conda environment ("base").
+
+#### Step 1b (if you're using MacOS)
+You should have `curl` installed, but may not have `conda` -- run `which conda` to check!
+```
+curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+bash Miniconda3-latest-MacOSX-x86_64.sh
+```
+
+
+#### Install nextstrain
 ```
 curl http://data.nextstrain.org/nextstrain.yml --compressed -o nextstrain.yml
 conda env create -f nextstrain.yml
@@ -12,7 +33,7 @@ conda activate nextstrain
 npm install --global auspice
 ```
 
-## Clone this repo
+## Clone this repo, containing the DENV data
 ```
 ## using https
 git clone https://github.com/jameshadfield/veme2019.git
