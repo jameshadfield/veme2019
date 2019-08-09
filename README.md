@@ -56,6 +56,7 @@ snakemake
 Alternatively, you can run each step individually:
 
 ```bash
+mkdir results
 ## parse the metadata into TSV formats for nextstrain
 python scripts/parseMetadata.py --metadataIn data/Reference.csv data/NewSequences.csv --metadataOut results/metadata.tsv --latlongs results/latlongs_per_strain.tsv --sequencesIn data/Reference.fas data/NewSequences.fas --sequencesOut results/sequences.fasta
 ## align genomes using MAFFT
@@ -76,7 +77,7 @@ augur traits --tree results/tree.nwk --metadata results/metadata.tsv --output re
 ## Some more metadata parsing!
 cat results/latlongs_per_strain.tsv config/latlongs.tsv > results/latlongs.tsv
 ## Export for visualisation in Auspice
-augur export --tree results/tree.nwk --metadata results/metadata.tsv --node-data results/branch_lengths.json results/traits.json results/nt_muts.json results/aa_muts.json config/genome_annotation_file.json --lat-longs results/latlongs.tsv --auspice-config config/auspice_config.json --output-tree auspice/DENV2_tree.json --output-meta auspice/DENV2_meta.json --colors config/colors.tsv
+augur export --tree results/tree.nwk --metadata results/metadata.tsv --node-data results/branch_lengths.json results/traits.json results/nt_muts.json results/aa_muts.json --lat-longs results/latlongs.tsv --auspice-config config/auspice_config.json --output-tree auspice/veme2019_tree.json --output-meta auspice/veme2019_meta.json --colors config/colors.tsv
 ```
 
 

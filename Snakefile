@@ -180,7 +180,6 @@ rule export:
         auspice_config = files.auspice_config,
         lat_longs = rules.join_latlongs.output.latlongs,
         colors = files.colors,
-        annotation_file = "config/genome_annotation_file.json"
     output:
         auspice_tree = rules.all.input.auspice_tree,
         auspice_meta = rules.all.input.auspice_meta
@@ -189,7 +188,7 @@ rule export:
         augur export \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts} {input.annotation_file} \
+            --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts} \
             --lat-longs {input.lat_longs} \
             --auspice-config {input.auspice_config} \
             --output-tree {output.auspice_tree} \

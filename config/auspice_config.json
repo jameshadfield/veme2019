@@ -35,8 +35,8 @@
   "defaults": {
     "mapTriplicate": false,
     "distanceMeasure": "num_date",
-    "geoResolution": "region",
-    "colorBy": "study"
+    "geoResolution": "strain",
+    "colorBy": "num_date"
   },  
   "maintainer": [
     "Nuno Faria // CADDE",

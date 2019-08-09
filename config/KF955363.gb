@@ -44,7 +44,6 @@ FEATURES             Location/Qualifiers
      CDS             75..10250
                      /codon_start=1
                      /product="polyprotein"
-                     /gene="polyprotein"
                      /protein_id="AHG23132.1"
                      /translation="MNNQRKKARSTPFNMLKRERNRVSTVQQLTKRFSLGMLQGRGPL
                      KLFMALVAFLRFLTIPPTAGILKRWGTIKKSKAINVLRGFRKEIGRMLNILNRRRRTA
@@ -105,28 +104,39 @@ FEATURES             Location/Qualifiers
                      AGWSLKETACLGKSYAQMWTLMYFHRRDLRLAANAICSAVPSHWVPTSRTTWSIHAKH
                      EWMTTEDMLAVWNRVWIQENPWMEDKTPVESWEEVPYLGKREDQWCGSLIGLTSRATW
                      AKNIQTAINQVRSLIGNEEYTDYMPSMKRFRREEEEAGVLW"
-     mat_peptide     75..416
+     CDS             75..416
                      /product="capsid protein"
-     mat_peptide     417..914
+                     /gene="capsid"
+     CDS             417..914
                      /product="membrane glycoprotein"
-     mat_peptide     915..2399
+                     /gene="membrane"
+     CDS             915..2399
                      /product="envelope protein"
-     mat_peptide     2400..3455
+                     /gene="env"
+     CDS             2400..3455
                      /product="nonstructural protein NS1"
-     mat_peptide     3456..4109
+                     /gene="NS1"
+     CDS             3456..4109
                      /product="nonstructural protein NS2A"
-     mat_peptide     4110..4499
+                     /gene="NS2A"
+     CDS             4110..4499
                      /product="nonstructural protein NS2B"
-     mat_peptide     4500..6353
+                     /gene="NS2B"
+     CDS             4500..6353
                      /product="nonstructural protein NS3"
-     mat_peptide     6354..6734
+                     /gene="NS3"
+     CDS             6354..6734
                      /product="nonstructural protein NS4A"
-     mat_peptide     6735..6803
+                     /gene="NS4A"
+     CDS             6735..6803
                      /product="2K peptide"
-     mat_peptide     6804..7547
+                     /gene="2K"
+     CDS             6804..7547
                      /product="nonstructural protein NS4B"
-     mat_peptide     7548..10247
+                     /gene="NS4B"
+     CDS             7548..10247
                      /product="nonstructural protein NS5"
+                     /gene="NS5"
      3'UTR           10251..10531
                      /note="indels in UTR have not been validated"
 ORIGIN      

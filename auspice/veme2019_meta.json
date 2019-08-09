@@ -1,13 +1,63 @@
 {
   "annotations": {
-    "nuc": {
-      "end": 10948,
-      "start": 0,
+    "2K": {
+      "end": 6803,
+      "start": 6734,
       "strand": 1
     },
-    "polyprotein": {
-      "end": 10250,
+    "NS1": {
+      "end": 3455,
+      "start": 2399,
+      "strand": 1
+    },
+    "NS2A": {
+      "end": 4109,
+      "start": 3455,
+      "strand": 1
+    },
+    "NS2B": {
+      "end": 4499,
+      "start": 4109,
+      "strand": 1
+    },
+    "NS3": {
+      "end": 6353,
+      "start": 4499,
+      "strand": 1
+    },
+    "NS4A": {
+      "end": 6734,
+      "start": 6353,
+      "strand": 1
+    },
+    "NS4B": {
+      "end": 7547,
+      "start": 6803,
+      "strand": 1
+    },
+    "NS5": {
+      "end": 10247,
+      "start": 7547,
+      "strand": 1
+    },
+    "capsid": {
+      "end": 416,
       "start": 74,
+      "strand": 1
+    },
+    "env": {
+      "end": 2399,
+      "start": 914,
+      "strand": 1
+    },
+    "membrane": {
+      "end": 914,
+      "start": 416,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 10531,
+      "start": 0,
       "strand": 1
     }
   },
@@ -83,9 +133,9 @@
     }
   },
   "defaults": {
-    "colorBy": "study",
+    "colorBy": "num_date",
     "distanceMeasure": "num_date",
-    "geoResolution": "region",
+    "geoResolution": "strain",
     "mapTriplicate": false
   },
   "filters": [
@@ -1770,8 +1820,8 @@
     }
   },
   "maintainer": [
-    "Nuno",
-    ""
+    "Nuno Faria // CADDE",
+    "https://twitter.com/CaddeProject"
   ],
   "panels": [
     "tree",
@@ -1779,6 +1829,6 @@
     "entropy"
   ],
   "title": "VEME 2019: CADDE project & DENV-2",
-  "updated": "08 Aug 2019",
+  "updated": "09 Aug 2019",
   "virus_count": 411
 }
